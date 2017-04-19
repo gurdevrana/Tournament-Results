@@ -10,10 +10,10 @@ The project consists of three files:
 2.&nbsp PostgreSQL<br>
 
 # how to run this project?
-First create a clean database and tables by importing tournament.sql at a PostgreSQL prompt:<br>
+Step 1:First create a clean database and tables by importing tournament.sql at a PostgreSQL prompt:<br>
 &nbsp;> psql <br>
-&nbsp;=> \i tournament.sql<br>
-Then test the tournament by running <br>
+&nbsp;=> \i tournament.sql<br><br>
+Step2:Then test the tournament by running <br>
 &nbsp;> python tournament_test.py
 
 
