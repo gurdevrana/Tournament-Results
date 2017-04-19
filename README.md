@@ -6,7 +6,7 @@ The project consists of three files:
 3.&nbsp;tournament_test.py runs unit tests on tournament.py<br>
 <br>
 <h3> Requirements:</h3>
-1.&nbsp;Python<br>
+1.&nbsp;Python 2.7 or higher<br>
 2.&nbsp PostgreSQL<br>
 
 # how to run this project?
