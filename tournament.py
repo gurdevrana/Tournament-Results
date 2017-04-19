@@ -12,10 +12,8 @@ def connect():
 
 @contextmanager
 def get_cursor():
-    """Generate a cursor on the database defined in connect().
-    """
-
-    conn=psycopg2.connect(database="tournament", user="postgres", password="babaji9lm", host="localhost", port="5432")
+    # Generate a cursor on the database and making the database connection
+    conn = psycopg2.connect(database="tournament", user="postgres", password="babaji9lm", host="localhost", port="5432")
     c = conn.cursor()
 
     try:
