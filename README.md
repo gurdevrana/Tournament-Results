@@ -11,9 +11,9 @@ The project consists of three files:
 
 # how to run this project?
 First create a clean database and tables by importing tournament.sql at a PostgreSQL prompt:<br>
-> psql <br>
-=> \i tournament.sql<br>
+&nbsp;> psql <br>
+&nbsp;=> \i tournament.sql<br>
 Then test the tournament by running <br>
-> python tournament_test.py
+&nbsp;> python tournament_test.py
 
 
