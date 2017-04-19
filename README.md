@@ -12,7 +12,6 @@ Python and PostgreSQL are required. Before a tournament, create a clean database
 	> psql <br>
 	=> \i tournament.sql<br>
 Then test the tournament by running
-
 	> python tournament_test.py
 
 
