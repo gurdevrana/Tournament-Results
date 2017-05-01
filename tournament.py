@@ -84,19 +84,10 @@ def playerStandings():
                   "INNER JOIN wins_by_player ON matches_by_player.id=wins_by_player.id  "
                   "INNER JOIN players ON players.id = matches_by_player.id "
                   "ORDER BY wins_by_player.wins ASC")
-        #c.execute("SELECT players.id,players.name ,wins_by_player.wins,matches_by_player.totalmatches "
-        #         "FROM players "
-         #         "INNER JOIN wins_by_player ON players.id=wins_by_player.id  "
-        #          "INNER JOIN matches_by_player ON wins_by_player.id= matches_by_player.id "
-        #         "ORDER BY wins_by_player.wins ASC")
-
+        
         results = c.fetchall()
 
         return [(row[0], row[1], row[2], row[3]) for row in results]
-
-        #c.execute("SELECT * FROM players ORDER BY wins ASC ")
-        #ranks = c.fetchall()
-    #return [(row[0], row[1], row[2], row[3]) for row in ranks]tournament.public.matches_by_player.
 
 
 def reportMatch(winner, loser):
